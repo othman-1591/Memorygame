@@ -1,0 +1,71 @@
+.gamecard {
+    width: 100px;
+    height: 125px;
+    border: 3px solid #ff5722;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 0;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.gamecard:hover {
+    background-color: #ffebee;
+    border-color: #ff5722;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 87, 34, 0.2);
+}
+
+.timer {
+    text-align: left;
+    font-size: 22px;
+    height: 50px;
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    max-width: 590px;
+    padding: 8px 0;
+    margin: 15px auto;
+    color: #4caf50;
+    font-weight: bold;
+    background-color: #e8f5e9;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.timer span {
+    padding: 0 20px 0 10px;
+    color: #388e3c;
+}
+
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 610px;
+    text-align: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.alerttext {
+    text-align: center;
+    font-size: 18px;
+    color: #1976d2;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #e3f2fd;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #1976d2;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.alerttext:hover {
+    background-color: #1976d2;
+    color: #fff;
+}

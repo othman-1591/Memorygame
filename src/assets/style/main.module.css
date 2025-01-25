@@ -1,0 +1,78 @@
+.header {
+    background-color: #37474f; /* Changement à une couleur plus sobre et moderne */
+    padding: 20px 0;
+    border-bottom: 3px solid #ff7043; /* Ajout d'une bordure subtile */
+}
+
+.header .title, 
+.header h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header .title:hover, 
+.header h1:hover {
+    color: #ff7043;
+    font-weight: bold;
+    transform: scale(1.05); /* Effet de zoom doux */
+    transition: transform 0.3s ease;
+}
+
+.header .item {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.header .item:hover {
+    color: #ff7043;
+    font-weight: bold;
+}
+
+.header .btnmenu {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.header .btnmenu:hover {
+    background-color: #ff7043;
+    border-color: #ff7043;
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 450px;
+    display: block;
+    border: 2px solid #ff7043; /* Mise à jour à la couleur du header */
+    background-color: transparent;
+    color: #ff7043;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7043;
+    color: #fff;
+    border-color: #ff7043;
+    transform: translateY(-5px); /* Ajout d'un effet "lift" */
+}
+
+.text {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+    max-width: 450px;
+    color: #555; /* Changement de la couleur du texte pour plus de lisibilité */
+}
